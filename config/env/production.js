@@ -18,9 +18,9 @@ module.exports = {
         callbackURL: 'http://localhost:3000/auth/twitter/callback'
     },
     github: {
-        clientID: 'APP_ID',
-        clientSecret: 'APP_SECRET',
-        callbackURL: 'http://localhost:3000/auth/github/callback'
+        clientID: '0cb225c1506386e5c7fe',
+        clientSecret: '219afdbde14ec1997621cdb5b508fe096c2050b1',
+        callbackURL: 'http://trilog.herokuapp.com/auth/github/callback'
     },
     google: {
         clientID: 'APP_ID',
