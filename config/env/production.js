@@ -13,9 +13,9 @@ module.exports = {
         callbackURL: 'http://trilog.herokuapp.com/auth/facebook/callback'
     },
     twitter: {
-        clientID: 'CONSUMER_KEY',
-        clientSecret: 'CONSUMER_SECRET',
-        callbackURL: 'http://localhost:3000/auth/twitter/callback'
+        clientID: '939vQVcYsLYKk9orDD2g',
+        clientSecret: 'mUWkkSokNMawTW7jBJ209xAqsum46KapXlHLIn1miH0',
+        callbackURL: 'http://trilog.herokuapp.com/auth/twitter/callback'
     },
     github: {
         clientID: '0cb225c1506386e5c7fe',
