@@ -1,5 +1,4 @@
 'use strict';
-console.log(process.env.NODE_ENV);
 // Utilize Lo-Dash utility library
 var _ = require('lodash');
 

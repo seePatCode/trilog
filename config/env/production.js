@@ -10,17 +10,17 @@ module.exports = {
     facebook: {
         clientID: '668421416532462',
         clientSecret: '24be4786477810342300af3c4fd2c38e',
-        callbackURL: 'http://trilog.herokuapp.com/auth/facebook/callback'
+        callbackURL: 'http://trilog.tk/auth/facebook/callback'
     },
     twitter: {
         clientID: '939vQVcYsLYKk9orDD2g',
         clientSecret: 'mUWkkSokNMawTW7jBJ209xAqsum46KapXlHLIn1miH0',
-        callbackURL: 'http://trilog.herokuapp.com/auth/twitter/callback'
+        callbackURL: 'http://trilog.tk/auth/twitter/callback'
     },
     github: {
         clientID: '0cb225c1506386e5c7fe',
         clientSecret: '219afdbde14ec1997621cdb5b508fe096c2050b1',
-        callbackURL: 'http://trilog.herokuapp.com/auth/github/callback'
+        callbackURL: 'http://trilog.tk/auth/github/callback'
     },
     google: {
         clientID: 'APP_ID',
