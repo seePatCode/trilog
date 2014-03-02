@@ -28,8 +28,8 @@ module.exports = {
         callbackURL: 'http://www.trilog.tk/auth/google/callback'
     },
     linkedin: {
-        clientID: 'd6c7cb4a-d9cd-452c-934b-0e375c2ad67a',
-        clientSecret: '73c2a9b9-da96-4f44-8c22-b4ca7312d485',
+        clientID: '77cwimho9mgx3q',
+        clientSecret: 'nTwrhwiOOEDMc2VA',
         callbackURL: 'http://www.trilog.tk/auth/linkedin/callback'
     }
 };
