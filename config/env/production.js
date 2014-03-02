@@ -23,9 +23,9 @@ module.exports = {
         callbackURL: 'http://www.trilog.tk/auth/github/callback'
     },
     google: {
-        clientID: 'APP_ID',
-        clientSecret: 'APP_SECRET',
-        callbackURL: 'http://localhost:3000/auth/google/callback'
+        clientID: '889287255530-j81o8vbgsq028mlgu2gcrblcqn32oqso.apps.googleusercontent.com',
+        clientSecret: 'VG1kwJxnvVORfnquqaGP9df7',
+        callbackURL: 'http://www.trilog.tk/auth/google/callback'
     },
     linkedin: {
         clientID: 'API_KEY',
