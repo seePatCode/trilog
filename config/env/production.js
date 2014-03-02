@@ -10,7 +10,7 @@ module.exports = {
     facebook: {
         clientID: '668421416532462',
         clientSecret: '24be4786477810342300af3c4fd2c38e',
-        callbackURL: 'http://www.trilog.herokuapp.com/auth/facebook/callback'
+        callbackURL: 'http://trilog.herokuapp.com/auth/facebook/callback'
     },
     twitter: {
         clientID: '939vQVcYsLYKk9orDD2g',
