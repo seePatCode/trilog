@@ -44,11 +44,17 @@ angular.module('mean.articles').controller('ArticlesController', ['$scope', '$st
         });
     };
 
-    $scope.find = function() {
-        Articles.query(function(articles) {
+    $scope.findMine = function() {
+        Articles.myArticles(function(articles) {
             $scope.articles = articles;
         });
     };
+
+	$scope.find = function() {
+		Articles.query(function(articles) {
+			$scope.articles = articles;
+		});
+	};
 
     $scope.findOne = function() {
         Articles.get({

@@ -8,7 +8,7 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
         'link': 'articles'
     },{
 		'title': 'My Articles',
-		'link': 'myarticles'
+		'link': 'articles/myarticles'
     }, {
         'title': 'Create New Article',
         'link': 'articles/create'
