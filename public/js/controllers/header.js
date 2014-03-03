@@ -6,6 +6,9 @@ angular.module('mean.system').controller('HeaderController', ['$scope', 'Global'
     $scope.menu = [{
         'title': 'Articles',
         'link': 'articles'
+    },{
+		'title': 'My Articles',
+		'link': 'myarticles'
     }, {
         'title': 'Create New Article',
         'link': 'articles/create'
