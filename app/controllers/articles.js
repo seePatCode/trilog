@@ -102,7 +102,6 @@ exports.all = function(req, res) {
  * List of Articles
  */
 exports.allMine = function(req, res) {
-	console.log('this is a test');
 	Article.find({'user':req.user}).sort('-created').populate('user', 'name username').exec(function(err, articles) {
 		if (err) {
 			res.render('error', {

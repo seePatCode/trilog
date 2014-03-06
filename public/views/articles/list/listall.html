@@ -1,13 +1,2 @@
-<section data-ng-controller="ArticlesController" data-ng-init="find()">
-  <ul class="list-group">
-    <li class="list-group-item" data-ng-repeat="article in articles">
-      <div class="right">
-        <span>{{article.created | date:'medium'}}</span> by
-        <span>{{article.user.name}}</span>
-      </div>
-      <h2><a data-ng-href="#!/articles/{{article._id}}">{{article.title}}</a></h2>
-      <div>{{article.content}}</div>
-    </li>
-  </ul>
-  <h1 data-ng-hide="!articles || articles.length">No articles yet. <br> Why don't you <a href="/#!/articles/create">Create One</a>?</h1>
+<section data-ng-controller="ArticlesController" data-ng-init="find()" data-ng-include="'views/articles/list/list-partial.html'">
 </section>
